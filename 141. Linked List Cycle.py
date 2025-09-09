@@ -1,8 +1,16 @@
-'''250908'''
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+"""250908"""
+
 
 # 第一次，嘗試快慢指標，通過
-def hasCycle(self, head: Optional[ListNode]) -> bool:
-    ptr_f = head 
+def hasCycle(self, head: Optional[ListNode]) -> bool:  # noqa: F821
+    ptr_f = head
     ptr_s = head
 
     while ptr_f:
@@ -16,13 +24,14 @@ def hasCycle(self, head: Optional[ListNode]) -> bool:
 
         if ptr_f == ptr_s:
             return True
-        
+
     return False
 
+
 # 快慢指標: 修改過後的版本
-def hasCycle(self, head: Optional[ListNode]) -> bool:
+def hasCycle(self, head: Optional[ListNode]) -> bool:  # noqa: F821
     # 兩指標從同個起點開始
-    ptr_f = head 
+    ptr_f = head
     ptr_s = head
 
     # 每次移動指標時檢查快指標是否走到底了(None)
@@ -33,12 +42,13 @@ def hasCycle(self, head: Optional[ListNode]) -> bool:
         # 如果兩指標相遇，說明快指標繞了一圈追上慢指標，有環
         if ptr_f is ptr_s:
             return True
-    
+
     # 快指標走到鏈結尾端，無環
     return False
 
+
 # 雜湊表法
-def hasCycle(head: Optional[ListNode]) -> bool:
+def hasCycle(head: Optional[ListNode]) -> bool:  # noqa: F821
     # 建立一個雜湊表，紀錄經過的節點
     visited = set()
 
@@ -48,5 +58,5 @@ def hasCycle(head: Optional[ListNode]) -> bool:
             return True
         visited.add(head)
         head = head.next
-    
+
     return False
