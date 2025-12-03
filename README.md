@@ -29,7 +29,7 @@ Leetcode 的練習紀錄
 * 走訪:
   * [144. 二元樹前序走訪](/0%20~%20200/144.%20Binary%20Tree%20Preorder%20Traversal.md)
 * 求最低公共祖先(Lowest Common Ancestor, LCA):
-  * 
+  * [236.](/201%20~%20400/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md) / [235.](/201%20~%20400/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
 
 ### SQL/Pandas
 
