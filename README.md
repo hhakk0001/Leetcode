@@ -45,7 +45,8 @@ Leetcode 的練習紀錄
 參考: [Sliding Window](/解題技巧%20&%20心得/Sliding%20Window%20滑動視窗.md)
 
 * 固定長度的滑動窗口
-  * [1456. 定長子字串中的母音最大次數](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md)
+  * 基礎題型: [1456. 定長子字串中的母音最大次數](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md)/[643. 子陣列的最大平均值](643.%20Maximum%20Average%20Subarray%20I.md)
+  * 
 
 ## 參考刷題順序
 
