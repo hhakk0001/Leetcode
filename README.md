@@ -48,7 +48,13 @@ Leetcode 的練習紀錄
 
 * 固定長度的滑動窗口
   * 基礎題型: [1456.](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md) / [643.](643.%20Maximum%20Average%20Subarray%20I.md)
-  * 
+
+### 位元運算 (Bitwise Operation)
+
+參考: [集合論到位元運算](/解題技巧%20&%20心得/應用集合於位運算.md)
+* 基礎
+  * [3370.](3370.%20Smallest%20Number%20With%20All%20Set%20Bits.md) / [3226.](3226.%20Number%20of%20Bit%20Changes%20to%20Make%20Two%20Integers%20Equal.md)
+
 
 ## 參考刷題順序
 
