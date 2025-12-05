@@ -6,14 +6,20 @@ Leetcode 的練習紀錄
 
 以下紀錄一些可以多刷，或作為基礎來解其他進階題型的題目。
 
-* [基礎](#基礎): 
-* 樹:
-  * [二元樹](#二元樹)
-* [滑動窗口](#滑動窗口-sliding-window)
+- [Leetcode](#leetcode)
+  - [重要題型](#重要題型)
+    - [基礎](#基礎)
+    - [二元樹](#二元樹)
+    - [SQL/Pandas](#sqlpandas)
+    - [數學/數論相關](#數學數論相關)
+    - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
+    - [位元運算 (Bitwise Operation)](#位元運算-bitwise-operation)
+  - [參考刷題順序](#參考刷題順序)
+
 
 ### 基礎
 
-不需要太多 DS & Algo 的題目，可能包含簡單數學概念
+無太多 DS & Algo 的題目，可能包含簡單數學概念
 適合開始正式刷題前用來適應開發環境及熟悉語法。
 
 * 1512. Number of Good Pairs: 排列組合的應用，可將暴力法降到線性時間。
@@ -37,6 +43,8 @@ Leetcode 的練習紀錄
 * 1757. Recyclable and Low Fat Products: `=`
 
 ### 數學/數論相關
+
+參考: [數論相關原理](/解題技巧%20&%20心得/數論相關原理.md)
 
 * 258. Add Digits: 考數根(digital root) 和模運算。
   * [最優解的一種易懂說明](https://leetcode.cn/problems/add-digits/solutions/1301157/ge-wei-xiang-jia-by-leetcode-solution-u4kj/comments/2467095/)
