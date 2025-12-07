@@ -48,6 +48,8 @@ Leetcode 的練習紀錄
 
 * 258. Add Digits: 考數根(digital root) 和模運算。
   * [最優解的一種易懂說明](https://leetcode.cn/problems/add-digits/solutions/1301157/ge-wei-xiang-jia-by-leetcode-solution-u4kj/comments/2467095/)
+* 奇偶性: 
+  * [1523](1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md)
 
 
 ### 滑動窗口 (Sliding Window)
