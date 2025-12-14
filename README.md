@@ -49,7 +49,7 @@ Leetcode 的練習紀錄
 * 258. Add Digits: 考數根(digital root) 和模運算。
   * [最優解的一種易懂說明](https://leetcode.cn/problems/add-digits/solutions/1301157/ge-wei-xiang-jia-by-leetcode-solution-u4kj/comments/2467095/)
 * 奇偶性: 
-  * [1523](1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md)
+  * [1523.](1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md)
 
 
 ### 滑動窗口 (Sliding Window)
@@ -57,7 +57,7 @@ Leetcode 的練習紀錄
 參考: [Sliding Window](/解題技巧%20&%20心得/Sliding%20Window%20滑動視窗.md)
 
 * 固定長度的滑動窗口
-  * 基礎題型: [1456.](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md) / [643.](643.%20Maximum%20Average%20Subarray%20I.md)
+  * 基礎題型: [1456.](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md) / [643.](643.%20Maximum%20Average%20Subarray%20I.md) / [1343.](/1001%20~%202000/1343.%20Number%20of%20Sub-arrays%20of%20Size%20K%20and%20Average%20Greater%20than%20or%20Equal%20to%20Threshold.md)
 
 ### 位元運算 (Bitwise Operation)
 
