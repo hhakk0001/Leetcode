@@ -12,6 +12,7 @@ Leetcode 的練習紀錄
     - [二元樹](#二元樹)
     - [SQL/Pandas](#sqlpandas)
     - [數學/數論相關](#數學數論相關)
+    - [雙指針 (Two Pointers)](#雙指針-two-pointers)
     - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
     - [位元運算 (Bitwise Operation)](#位元運算-bitwise-operation)
   - [參考刷題順序](#參考刷題順序)
@@ -52,12 +53,20 @@ Leetcode 的練習紀錄
   * [1523.](1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md)
 
 
+### 雙指針 (Two Pointers)
+
+* 相向雙指針: 指針從兩端開始向中間移動
+  * 基礎: [167. Two Sum II](/0%20~%201000/0%20~%20200/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) / 
+
 ### 滑動窗口 (Sliding Window)
 
 參考: [Sliding Window](/解題技巧%20&%20心得/Sliding%20Window%20滑動視窗.md)
 
-* 固定長度的滑動窗口
+* 固定長度
   * 基礎題型: [1456.](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md) / [643.](643.%20Maximum%20Average%20Subarray%20I.md) / [1343.](/1001%20~%202000/1343.%20Number%20of%20Sub-arrays%20of%20Size%20K%20and%20Average%20Greater%20than%20or%20Equal%20to%20Threshold.md)
+* 不固定長度
+  * 求最長/最大:
+  * 求最短/最小:
 
 ### 位元運算 (Bitwise Operation)
 
