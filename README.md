@@ -12,7 +12,7 @@ Leetcode 的練習紀錄
     - [二元樹](#二元樹)
     - [SQL/Pandas](#sqlpandas)
     - [數學/數論相關](#數學數論相關)
-    - [雙指針 (Two Pointers)](#雙指針-two-pointers)
+    - [雙指標 (Two Pointers)](#雙指標-two-pointers)
     - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
     - [位元運算 (Bitwise Operation)](#位元運算-bitwise-operation)
   - [參考刷題順序](#參考刷題順序)
@@ -53,10 +53,11 @@ Leetcode 的練習紀錄
   * [1523.](1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md)
 
 
-### 雙指針 (Two Pointers)
+### 雙指標 (Two Pointers)
 
-* 相向雙指針: 指針從兩端開始向中間移動
-  * 基礎: [167. Two Sum II](/0%20~%201000/0%20~%20200/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) / 
+* 相向雙指標: 指標從兩端開始向中間移動
+  * 基礎: [167. Two Sum II](/0%20~%201000/0%20~%20200/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) / [15. 3Sum](/0%20~%201000/0%20~%20200/15.%203Sum.md) / [11. Container With Most Water](/0%20~%201000/0%20~%20200/11.%20Container%20With%20Most%20Water.md)
+  * 進階: [42. Trapping Rain Water](/0%20~%201000/0%20~%20200/42.%20Trapping%20Rain%20Water.md)
 
 ### 滑動窗口 (Sliding Window)
 
