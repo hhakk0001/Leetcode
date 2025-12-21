@@ -15,6 +15,7 @@ Leetcode 的練習紀錄
     - [雙指標 (Two Pointers)](#雙指標-two-pointers)
     - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
     - [位元運算 (Bitwise Operation)](#位元運算-bitwise-operation)
+- [貪心法 (Greedy)](#貪心法-greedy)
   - [參考刷題順序](#參考刷題順序)
 
 
@@ -74,6 +75,11 @@ Leetcode 的練習紀錄
 參考: [集合論到位元運算](/解題技巧%20&%20心得/應用集合於位運算.md)
 * 基礎
   * [3370.](3370.%20Smallest%20Number%20With%20All%20Set%20Bits.md) / [3226.](3226.%20Number%20of%20Bit%20Changes%20to%20Make%20Two%20Integers%20Equal.md)
+
+# 貪心法 (Greedy)
+
+* 從最左(右)開始貪心: 可思考與線性/狀態機 DP 之不同處
+  * [955.](/0%20~%201000/801%20~%201000/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.md)
 
 
 ## 參考刷題順序
