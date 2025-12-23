@@ -13,9 +13,11 @@ Leetcode 的練習紀錄
     - [SQL/Pandas](#sqlpandas)
     - [數學/數論相關](#數學數論相關)
     - [雙指標 (Two Pointers)](#雙指標-two-pointers)
-    - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
+      - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
     - [位元運算 (Bitwise Operation)](#位元運算-bitwise-operation)
-- [貪心法 (Greedy)](#貪心法-greedy)
+    - [動態規劃 (Dynamic Programming)](#動態規劃-dynamic-programming)
+    - [貪心法 (Greedy)](#貪心法-greedy)
+  - [評估題目允許複雜度](#評估題目允許複雜度)
   - [參考刷題順序](#參考刷題順序)
 
 
@@ -60,15 +62,16 @@ Leetcode 的練習紀錄
   * 基礎: [167. Two Sum II](/0%20~%201000/0%20~%20200/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) / [15. 3Sum](/0%20~%201000/0%20~%20200/15.%203Sum.md) / [11. Container With Most Water](/0%20~%201000/0%20~%20200/11.%20Container%20With%20Most%20Water.md)
   * 進階: [42. Trapping Rain Water](/0%20~%201000/0%20~%20200/42.%20Trapping%20Rain%20Water.md)
 
-### 滑動窗口 (Sliding Window)
+
+#### 滑動窗口 (Sliding Window)
 
 參考: [Sliding Window](/解題技巧%20&%20心得/Sliding%20Window%20滑動視窗.md)
 
 * 固定長度
   * 基礎題型: [1456.](1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.md) / [643.](643.%20Maximum%20Average%20Subarray%20I.md) / [1343.](/1001%20~%202000/1343.%20Number%20of%20Sub-arrays%20of%20Size%20K%20and%20Average%20Greater%20than%20or%20Equal%20to%20Threshold.md)
 * 不固定長度
-  * 求最長/最大:
-  * 求最短/最小:
+  * 求條件下最長:
+  * 求條件下最短: [209. ](/0%20~%201000/201%20~%20400/209.%20Minimum%20Size%20Subarray%20Sum.md) / 
 
 ### 位元運算 (Bitwise Operation)
 
@@ -76,10 +79,31 @@ Leetcode 的練習紀錄
 * 基礎
   * [3370.](3370.%20Smallest%20Number%20With%20All%20Set%20Bits.md) / [3226.](3226.%20Number%20of%20Bit%20Changes%20to%20Make%20Two%20Integers%20Equal.md)
 
-# 貪心法 (Greedy)
+### 動態規劃 (Dynamic Programming)
+
+* 爬樓梯:
+  * [70. Climbing Stairs](/0%20~%201000/0%20~%20200/70.%20Climbing%20Stairs.md)
+
+### 貪心法 (Greedy)
 
 * 從最左(右)開始貪心: 可思考與線性/狀態機 DP 之不同處
   * [955.](/0%20~%201000/801%20~%201000/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.md)
+
+## 評估題目允許複雜度
+
+參考: 靈茶山艾府
+
+| 資料範圍        | 允許的時間複雜度      | 適用演算法舉例                           |
+| --------------- | --------------------- | ---------------------------------------- |
+| $n \le 10$      | $O(n!)$ 或 $O(c^n)$   | 回溯、暴力搜尋                           |
+| $n \le 20$      | $O(2^n)$              | 狀態壓縮 DP                              |
+| $n \le 40$      | $O(2^{n/2})$          | 折半枚舉（Meet in the Middle）           |
+| $n \le 10^2$    | $O(n^3)$              | 三重迴圈 DP、Floyd 演算法                |
+| $n \le 10^3$    | $O(n^2)$              | 二重迴圈 DP、背包問題                    |
+| $n \le 10^5$    | $O(n \log n)$         | 多數實務題目落在此範圍，排序、樹狀結構等 |
+| $n \le 10^6$    | $O(n)$                | 線性 DP、滑動視窗                        |
+| $n \le 10^9$    | $O(\sqrt{n})$         | 質數判斷、因數分解（試除法）             |
+| $n \le 10^{18}$ | $O(\log n)$ 或 $O(1)$ | 二分搜尋、快速冪、數學公式推導           |
 
 
 ## 參考刷題順序
