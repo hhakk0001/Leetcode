@@ -12,13 +12,14 @@ Leetcode 的練習紀錄
     - [二元樹](#二元樹)
     - [SQL/Pandas](#sqlpandas)
     - [數學/數論相關](#數學數論相關)
+    - [二分搜尋 (Binary Search)](#二分搜尋-binary-search)
     - [雙指標 (Two Pointers)](#雙指標-two-pointers)
       - [滑動窗口 (Sliding Window)](#滑動窗口-sliding-window)
     - [位元運算 (Bitwise Operation)](#位元運算-bitwise-operation)
     - [動態規劃 (Dynamic Programming)](#動態規劃-dynamic-programming)
     - [貪心法 (Greedy)](#貪心法-greedy)
   - [評估題目允許複雜度](#評估題目允許複雜度)
-  - [參考刷題順序](#參考刷題順序)
+  - [參考](#參考)
 
 
 ### 基礎
@@ -55,6 +56,10 @@ Leetcode 的練習紀錄
 * 奇偶性: 
   * [1523.](1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md)
 
+### 二分搜尋 (Binary Search)
+
+
+* 基礎: [704. Binary Search](/0%20~%201000/601%20~%20800/704.%20Binary%20Search.md) / [34. ](/0%20~%201000/0%20~%20200/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md) /
 
 ### 雙指標 (Two Pointers)
 
@@ -72,6 +77,9 @@ Leetcode 的練習紀錄
 * 不固定長度
   * 求條件下最長:
   * 求條件下最短: [209. ](/0%20~%201000/201%20~%20400/209.%20Minimum%20Size%20Subarray%20Sum.md) / 
+* 求子陣列個數:
+  * 越短越好: 通常答案是 `right - left + 1`。 
+    * [713. ](/0%20~%201000/601%20~%20800/713.%20Subarray%20Product%20Less%20Than%20K.md)
 
 ### 位元運算 (Bitwise Operation)
 
@@ -111,7 +119,11 @@ Leetcode 的練習紀錄
 | $n \le 10^{18}$ | $O(\log n)$ 或 $O(1)$ | 二分搜尋、快速冪、數學公式推導           |
 
 
-## 參考刷題順序
+## 參考
 
-* [灵茶山艾府-如何科学刷题？](https://leetcode.cn/discuss/post/3141566/)
-* [Neetcode 150](https://neetcode.io/roadmap)
+* 解法參考:
+  * 
+* 題單與刷題順序:
+  * [靈茶山艾府 - 如何科學刷題?](https://leetcode.cn/discuss/post/3141566/)
+  * [Neetcode 150](https://neetcode.io/roadmap)
+  * [labuladong 的算法筆記](https://github.com/labuladong/fucking-algorithm)
